@@ -42,6 +42,11 @@ waypoints = [
 # waypoints list.
 
 # YOUR CODE HERE
+waypoints[0]["name"] = "not a real place"
+waypoints[0]["long"] = -130
 
 # Write a loop that prints out all the field values for all the waypoints
 # YOUR CODE HERE
+for d in waypoints:
+    for k,v in d.items():
+        print(v)
